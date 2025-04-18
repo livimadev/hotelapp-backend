@@ -18,3 +18,6 @@ Java: 21
 
 ## Documentación
 La API debe evolucionar según el modelo de madurez de Richardson, revise la documentación de [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html) según Martin Fowler
+
+## Base de datos
+Revise el motor de base de datos y la cadena de conexión a su base de datos en el archivo ```application.properties``` y actualízelo según corresponda. El proyecto está configurado para trabajar con MySQL, para cambiar de motor de base de datos actualice el archivo ```pom.xml``` 
